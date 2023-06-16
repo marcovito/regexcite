@@ -40,5 +40,11 @@ check()
 
 # you want the output of this command to be 0 errors, 0 warnings and 0 notes. If something shows up (error, warning or note) solve it right away. 
 
+use_mit_license()
+
+```
+
+```{r}
+check()
 ```
 

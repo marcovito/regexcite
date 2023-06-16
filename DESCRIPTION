@@ -1,10 +1,11 @@
 Package: regexcite
-Title: Make regex more exciting
+Title: Make Regular Expressions More Exciting
 Version: 0.0.0.9000
-Authors@R: marco.vicari@scilifelab.se
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+Authors@R: 
+    person("Marco", "Vicari", , "fmarco.vicari@scilifelab.se", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Make some convenient tasks more exciting
+Description: Convenience functions to make some common tasks with string
+    manipulation and regular expressions a bit easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
