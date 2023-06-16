@@ -48,3 +48,16 @@ use_mit_license()
 check()
 ```
 
+```{r}
+install()
+# go in another file and test if you can use it
+```
+
+```{r}
+library(testthat)
+use_testthat()
+use_test()
+devtools::test_active_file()
+use_package("stringr")
+```
+
