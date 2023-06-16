@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' # creating a vector for testing
+#' # creating a string for testing
 #' x <- "alfa,bravo,charlie,delta"
 #' # applying the function
 #' strsplit1(x, split = ",")
