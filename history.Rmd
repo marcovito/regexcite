@@ -1,0 +1,44 @@
+---
+title: "history"
+author: "Marco Vicari"
+date: "2023-06-16"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(devtools)
+library(usethis)
+use_git()
+use_github()
+```
+
+```{r}
+
+strsplit1 <- function(x, split) {
+  strsplit(x, split = split)[[1]]
+}
+
+```
+In console
+```{r}
+
+use_r("strsplit1")
+
+# how to load function without using source and without it appears in the environment. SUper important!
+devtools::load_all()
+```
+
+```{r}
+library(devtools)
+check()
+
+# you want the output of this command to be 0 errors, 0 warnings and 0 notes. If something shows up (error, warning or note) solve it right away. 
+
+```
+
