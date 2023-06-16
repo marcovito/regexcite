@@ -61,3 +61,17 @@ devtools::test_active_file()
 use_package("stringr")
 ```
 
+```{r}
+
+use_readme_md()
+use_readme_rmd()
+build_readme()
+
+```
+
+
+Optional
+```{r}
+use_github_action()
+```
+
